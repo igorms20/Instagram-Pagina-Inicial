@@ -228,18 +228,22 @@ footer {
     
     .right > div {
         max-width: 350px;
-        width: 85vw;
+        /* width: 85vw; */
         margin: auto;
     }
 
     .stores img {
         width: 7.5rem;
     }
+
+    .box {
+        border: none;
+    }
 }
 
-@media (max-width: 345px) {
+/* @media (max-width: 345px) {
 
     .auth-area, .register-area {
         padding-inline: 1.5rem;
     }
-}
+} */
