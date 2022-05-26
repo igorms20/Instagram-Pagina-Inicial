@@ -1,0 +1,196 @@
+/* =========== RESET =========== */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* =========== VARIABLES =========== */
+:root {
+    --primary-blue: #0095f6;
+    --border-color: rgb(209, 209, 209);
+}
+
+/* =========== REUSABLE CLASSES =========== */
+.flex-row {
+    display: flex;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.just-center {
+    justify-content: center;
+}
+
+.just-sb {
+    justify-content: space-between;
+}
+
+.box {
+    border: .7px solid var(--border-color);
+    border-radius: 3px;
+    width: 350px;
+    padding: 1.5rem 2.5rem;
+
+}
+
+.df-font-size {
+    font-size: 0.85rem;
+}
+
+/* =========== ELEMENTS STYLES =========== */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main {
+    height: 85vh;
+    
+}
+
+p a strong {
+    color: var(--primary-blue);
+}
+
+.container {
+    width: 765px;
+    /* height: 768px; */
+    height: 590px;
+    margin: auto;
+}
+
+.container .left, .container .right {
+    /* width: 50%; */
+    height: 100%;
+}
+
+/* ====== LEFT SIDE ====== */
+
+
+.iphone-image {
+    height: 100%;
+}
+
+.iphone-image img {
+    height: 100%;
+}
+
+/* ====== RIGHT SIDE ====== */
+.auth-area {
+    margin-bottom: .6rem;
+    padding-top: 0;
+} 
+
+.instagram-logo {
+    margin: 2.7rem 0 1.8rem;
+}
+
+.login, .login-item {
+    width: 100%;
+}
+
+input {
+    padding: .7rem .5rem;
+    border: .6px solid var(--border-color);
+    border-radius: 3px;
+    font-size: .78rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input.user {
+    margin-bottom: .4rem;
+}
+
+input.password {
+    margin-bottom: .8rem;
+}
+
+button.login-button {
+    background-color: var(--primary-blue);
+    color: white;
+    border: 0;
+    padding: .5rem .3rem;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.separator {
+    color: rgb(163, 163, 163);
+    font-size: .8rem;
+    font-weight: 500;
+    margin: 1rem 0 1.5rem;
+    /* gap: 1rem; */
+    width: 100%;
+}
+
+.separator::before, .separator::after {
+    content: "";
+    background-color: rgb(163, 163, 163);
+    height: .8px;
+    width: 40%;
+    opacity: 0.4;
+}
+
+.facebook-login {
+    gap: .5rem;
+}
+
+.facebook-login img {
+    width: 17px;
+}
+
+.facebook-login p {
+    color: #385185;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.forget-password {
+    font-size: 12px;
+    color: #00376b;
+    margin-top: 1rem;
+}
+
+/* ====== APP SUGGESTION ====== */
+.app-suggestion p {
+    margin-block: 1.3rem;
+    font-size: 14px;
+}
+
+.app-suggestion .stores {
+    gap: .5rem;
+}
+
+.app-suggestion img {
+    width: 8.7rem;
+}
+
+/* ====== FOOTER ====== */
+footer {
+    height: 15vh;
+    justify-content: flex-start;
+}
+
+
+.footer__links {
+    max-width: 970px;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.footer__links li a, .footer__copyright li {
+    font-size: 12px;
+    color: rgb(163, 163, 163);
+}
+
+.footer__copyright {
+    margin-top: 1.2rem;
+    gap: 1.5rem;
+}
