@@ -209,6 +209,10 @@ footer {
     .left {
         display: none;
     }
+
+    .right {
+        width: 100%;
+    }
 }
 
 @media (max-width: 600px) {
@@ -229,7 +233,7 @@ footer {
     }
 
     .stores img {
-        width: 6.5rem;
+        width: 7.5rem;
     }
 }
 
